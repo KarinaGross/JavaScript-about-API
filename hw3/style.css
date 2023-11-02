@@ -1,0 +1,38 @@
+body {
+    font-family: 'Barlow', sans-serif;
+    background-color: antiquewhite;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* background-color: antiquewhite; */
+}
+
+.content-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    border: 1px solid rgb(45, 45, 45);
+    padding: 10px;
+    /* height: 608px;
+    width: 421px; */
+    box-sizing: border-box;
+    background: white;
+}
+
+.photo-box {
+    /* height: 505px; */
+    min-height: 505px;
+    display: flex;
+    align-items: center;
+    background: #0000000d;
+}
+
+.photo {
+    object-fit: cover;
+    height: auto;
+}
